@@ -1,1 +1,1 @@
-!(./assets/result.png)
+!(/assets/result.png)
