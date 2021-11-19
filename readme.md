@@ -1,1 +1,2 @@
-![image](/assets/img/result.png)
+![image](/assets/img/home.png)
+![image](/assets/img/comprar.png)
