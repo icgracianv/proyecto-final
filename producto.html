@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8" />
+ <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+ <link rel="stylesheet" href="./assets/styles/producto.css" />
+ <link rel="stylesheet" href="./assets/styles/home.css" />
+ <title>EL MUNDO DE LA MODA</title>
+</head>
+<body>
+  <nav class="navbar">
+    <!-- LOGO -->
+    <a href="index.html" class="logo">LOGO</a>
+    <!-- NAVIGATION MENU -->
+    <ul class="nav-links">
+      <!-- USING CHECKBOX HACK -->
+      <input type="checkbox" id="checkbox_toggle" />
+      <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+      <!-- NAVIGATION MENUS -->
+      <div class="menu">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="comprarm.html">COMPRAR</a></li>
+        <li><a href="contacto.html">CONTACTO</a></li>
+        <li><a href="ingresar.html">INGRESAR</a></li>
+      </div>
+    </ul>
+  </nav>
+
+  <section id="hero">
+    <div class="row h-100">
+      <div class="col-lg-6 d-flex">
+        <div class="content mx-auto">
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./assets/img/shop-1.jpg" class="d-block w-100">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/shop-1.jpg" class="d-block w-100">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/shop-1.jpg" class="d-block w-100">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      
+
+      <div class="col-lg-6 d-flex">
+        <div class="content mx-auto align-self-center">
+          <h1 class="display-4 fw-bold mb-4">Women's Maroon Top</h1>
+          <h3 class="display-6 fw-bold mb-4">$ 58.79</h3>
+          <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum assumenda numquam accusantium minima mollitia expedita</p> 
+
+          <p class="selectTitle">Talla</p> <select class="form-select form-select-sm selectOpt" aria-label=".form-select-sm">
+            <option selected>Escoge una talla</option>
+            <option value="1">S</option>
+            <option value="2">M</option>
+            <option value="3">L</option>
+          </select> <br>                
+
+          <p class="selectTitle">Color</p> <select class="form-select form-select-sm selectOpt" aria-label=".form-select-sm">
+            <option selected>Escoge un color</option>
+            <option value="1">Azul</option>
+            <option value="2">Negro</option>
+            <option value="3">Gris</option>
+          </select> <br>
+
+          <nav aria-label="count" class="count">
+            <ul class="pagination">
+              <li class="page-item"><a class="page-link" href="#">-</a></li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">+</a></li>
+            </ul>
+          </nav>
+          <button type="button" class="btn btn-primary">Agregar compra</button>
+        </div>          
+      </div>
+      
+    </div>
+
+  </section>
+
+  <footer>
+    <div class="col-1-footer">
+      <p class="title-footer">El mundo de la moda</p>
+      <p>Tel: 542 23 67</p>
+      <p>Cel: 340 213 62 65</p>
+      <p>email: elmundodelamoda@gmail.com</p>
+    </div>
+    <div class="col-2-footer">
+      <p class="title-footer">Información</p>
+      <a href="#">Sobre nosotros</a>
+      <a href="#">Contáctanos</a>
+      <a href="comprarm.html">Comprar</a>
+    </div>
+    <div class="col-3-footer">
+      <p class="title-footer">Novedades</p>
+      <p>Recibe todas las novedades en tu correo</p>
+      <div class="input">
+        <input type="text" class="input-email" placeholder="Escribe tu correo">
+        <input type="button" class="button-subs" value="Suscribirse">
+      </div>
+    </div>
+  </footer>
+  
+
+</body>
+</html>

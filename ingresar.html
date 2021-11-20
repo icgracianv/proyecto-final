@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/comprar.css" />
+    <link rel="stylesheet" href="./assets/styles/home.css" />
+    <title>El Mundo de la Moda</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <!-- LOGO -->
+        <a href="index.html" class="logo">LOGO</a>
+        <!-- NAVIGATION MENU -->
+        <ul class="nav-links">
+          <!-- USING CHECKBOX HACK -->
+          <input type="checkbox" id="checkbox_toggle" />
+          <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+          <!-- NAVIGATION MENUS -->
+          <div class="menu">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="comprarm.html">COMPRAR</a></li>
+           <li><a href="contacto.html">CONTACTO</a></li>
+           <li><a href="/">INGRESAR</a></li>
+         </div>
+       </ul>
+     </nav>
+
+    <main class="main-login">
+        <div class="form2">
+            <form action="login.html" id="formLogin" method="post" autocomplete="on" class="formulario"
+                name="formLogin">
+                <div class="main_sesion">
+                    <h2>INICIAR SESIÓN</h2>
+                </div>
+                <div class="user_log">
+                    <div class="name">
+                        <label class="usuario" for="nombre">Correo electrónico: <br></label><br>
+                        <input type="text" id="correo" name="correo" class="correo" required>
+                    </div>
+                    <div class="pass">
+                        <label for="password">Contraseña: <br></label><br>
+                        <input type="password" id="password" name="password" class="password" required>
+                    </div>
+                    <div class="recordarpass">
+                        <div class="check">
+                            <input tabindex="3" type="checkbox" value="1" id="user_remember_me">
+                            <label for="user_remember_me">Recuérdame</label>
+                        </div>
+                        <div class="forgot-password">
+                            <a hef="#" class="forgot">He olvidado la contraseña</a>
+                        </div>
+                    </div>
+                    <div class="contenedorBoton">
+                        <input type="submit" class="botonInicio" value="Iniciar Sesión">
+                    </div>
+                    <div class="form-registro">
+                        <label>¿No tienes una cuenta?</label>
+                        <a href="registro.html" class="registro">Regístrate</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="col-1-footer">
+          <p class="title-footer">El mundo de la moda</p>
+          <p>Tel: 542 23 67</p>
+          <p>Cel: 340 213 62 65</p>
+          <p>email: elmundodelamoda@gmail.com</p>
+        </div>
+        <div class="col-2-footer">
+          <p class="title-footer">Información</p>
+          <a href="#">Sobre nosotros</a>
+          <a href="#">Contáctanos</a>
+          <a href="comprarm.html">Comprar</a>
+        </div>
+        <div class="col-3-footer">
+          <p class="title-footer">Novedades</p>
+          <p>Recibe todas las novedades en tu correo</p>
+          <div class="input">
+            <input type="text" class="input-email" placeholder="Escribe tu correo">
+            <input type="button" class="button-subs" value="Suscribirse">
+          </div>
+        </div>
+      </footer>
+</body>
+
+</html>
